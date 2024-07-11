@@ -1,0 +1,51 @@
+nav {
+    background-color: rgba(255, 0, 140, 0.788);
+}
+.nav-item {
+    display: inline;
+    font-weight: bold ;
+    font-size: 24px ;
+    color: white;
+}
+.nav-item:hover {
+    color: black;
+}
+.nav-link {
+    text-decoration: none;
+    display: inline !important;
+
+}
+.collapse {
+    display: none;
+}
+.company-name {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar-toggler {
+    display: none;
+}
+@media only screen and (max-width:1152px) {}
+    .icons {
+        display: none;
+    }
+    @media only screen and (max-width:900px) {
+        .navbar-toggler {
+            display: block;
+        }
+        .nav-menu {
+            display: none;
+        }
+        .collapse {
+            display: block;
+        }
+        .toggle-item {
+            color: white !important;
+            margin-right: 300px;
+          }
+          .toggle-item:active {
+            color: black !important;
+        }
+        }
+        
